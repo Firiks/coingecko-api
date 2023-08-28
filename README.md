@@ -1,9 +1,5 @@
 # PHP API client for coingecko.com
 
-[![Build Status](https://travis-ci.com/codenix-sv/coingecko-api.svg?branch=master)](https://travis-ci.com/codenix-sv/coingecko-api)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/codenix-sv/coingecko-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/codenix-sv/coingecko-api/?branch=master)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/650015976f280641822a/test_coverage)](https://codeclimate.com/github/codenix-sv/coingecko-api/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/650015976f280641822a/maintainability)](https://codeclimate.com/github/codenix-sv/coingecko-api/maintainability)
 [![License: MIT](https://img.shields.io/github/license/codenix-sv/coingecko-api)](https://github.com/codenix-sv/coingecko-api/blob/master/LICENSE)
 
 ![image info](./CoinGeckoLogo.png)
@@ -17,7 +13,7 @@ For additional information about API visit [coingecko.com/api](https://www.coing
 CoinGecko API [Terms of Service](https://www.coingecko.com/en/api_terms)
 ## Requirements
 
-* PHP >= 7.2
+* PHP >= 7.3
 * ext-json
 
 ## Installation
