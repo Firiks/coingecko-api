@@ -1,13 +1,13 @@
 {
-    "name": "codenix-sv/coingecko-api",
+    "name": "firiks/coingecko-api",
     "type": "library",
     "description": "PHP REST API client for coingecko.com",
-    "homepage": "https://github.com/codenix-sv/coingecko-api",
+    "homepage": "https://github.com/Firiks/coingecko-api",
     "keywords": ["client", "api", "php", "coingecko.com", "rest"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/codenix-sv/coingecko-api/issues?state=open",
-        "source": "https://github.com/codenix-sv/coingecko-api"
+        "issues": "https://github.com/Firiks/coingecko-api/issues?state=open",
+        "source": "https://github.com/Firiks/coingecko-api"
     },
     "authors": [
         {
@@ -17,9 +17,9 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^7.3|^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "~6.0|^7.0.1"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0"
