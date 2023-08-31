@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Codenixsv\CoinGeckoApi\Tests\Message;
+namespace Firiks\CoinGeckoApi\Tests\Message;
 
-use Codenixsv\CoinGeckoApi\Exceptions\TransformResponseException;
-use Codenixsv\CoinGeckoApi\Message\ResponseTransformer;
+use Firiks\CoinGeckoApi\Exceptions\TransformResponseException;
+use Firiks\CoinGeckoApi\Message\ResponseTransformer;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 

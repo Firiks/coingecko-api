@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Codenixsv\CoinGeckoApi\Api;
+namespace Firiks\CoinGeckoApi\Api;
 
 use Exception;
 

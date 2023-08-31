@@ -1,4 +1,5 @@
 {
+    "version": "1.0.0",
     "name": "firiks/coingecko-api",
     "type": "library",
     "description": "PHP REST API client for coingecko.com",
@@ -11,9 +12,7 @@
     },
     "authors": [
         {
-            "name": "Volodymyr Svyryd",
-            "email": "codenix.sv@gmail.com",
-            "role": "Developer"
+            "name": "Firiks"
         }
     ],
     "require": {
@@ -25,10 +24,13 @@
         "phpunit/phpunit": "^8.0"
     },
     "autoload": {
-        "psr-4": { "Codenixsv\\CoinGeckoApi\\": "src/" }
+        "psr-4": { "Firiks\\CoinGeckoApi\\": "src/" }
+    },
+    "scripts": {
+        "post-update-cmd": "composer dump-autoload -o"
     },
     "autoload-dev": {
-        "psr-4": { "Codenixsv\\CoinGeckoApi\\Tests\\": "tests/"}
+        "psr-4": { "Firiks\\CoinGeckoApi\\Tests\\": "tests/"}
     },
     "prefer-stable": true
 }

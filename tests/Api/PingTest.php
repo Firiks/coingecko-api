@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Codenixsv\CoinGeckoApi\Tests\Api;
+namespace Firiks\CoinGeckoApi\Tests\Api;
 
-use Codenixsv\CoinGeckoApi\Api\Ping;
-use Codenixsv\CoinGeckoApi\CoinGeckoClient;
+use Firiks\CoinGeckoApi\Api\Ping;
+use Firiks\CoinGeckoApi\CoinGeckoClient;
 
 class PingTest extends ApiTestCase
 {

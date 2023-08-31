@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Codenixsv\CoinGeckoApi\Api;
+namespace Firiks\CoinGeckoApi\Api;
 
-use Codenixsv\CoinGeckoApi\CoinGeckoClient;
-use Codenixsv\CoinGeckoApi\Message\ResponseTransformer;
+use Firiks\CoinGeckoApi\CoinGeckoClient;
+use Firiks\CoinGeckoApi\Message\ResponseTransformer;
 use Exception;
 
 class Api

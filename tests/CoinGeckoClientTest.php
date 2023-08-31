@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Codenixsv\CoinGeckoApi\Tests;
+namespace Firiks\CoinGeckoApi\Tests;
 
-use Codenixsv\CoinGeckoApi\Api\Coins;
-use Codenixsv\CoinGeckoApi\Api\Contract;
-use Codenixsv\CoinGeckoApi\Api\Derivatives;
-use Codenixsv\CoinGeckoApi\Api\Events;
-use Codenixsv\CoinGeckoApi\Api\ExchangeRates;
-use Codenixsv\CoinGeckoApi\Api\Exchanges;
-use Codenixsv\CoinGeckoApi\Api\Finance;
-use Codenixsv\CoinGeckoApi\Api\Globals;
-use Codenixsv\CoinGeckoApi\Api\Indexes;
-use Codenixsv\CoinGeckoApi\Api\Simple;
-use Codenixsv\CoinGeckoApi\Api\StatusUpdates;
-use Codenixsv\CoinGeckoApi\CoinGeckoClient;
+use Firiks\CoinGeckoApi\Api\Coins;
+use Firiks\CoinGeckoApi\Api\Contract;
+use Firiks\CoinGeckoApi\Api\Derivatives;
+use Firiks\CoinGeckoApi\Api\Events;
+use Firiks\CoinGeckoApi\Api\ExchangeRates;
+use Firiks\CoinGeckoApi\Api\Exchanges;
+use Firiks\CoinGeckoApi\Api\Finance;
+use Firiks\CoinGeckoApi\Api\Globals;
+use Firiks\CoinGeckoApi\Api\Indexes;
+use Firiks\CoinGeckoApi\Api\Simple;
+use Firiks\CoinGeckoApi\Api\StatusUpdates;
+use Firiks\CoinGeckoApi\CoinGeckoClient;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
