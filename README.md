@@ -26,12 +26,12 @@ Add in repositories section
 ```json
 {
     "type": "vcs",
-    "url": "https://github.com/LborV/coingecko-api"
+    "url": "https://github.com/Firiks/coingecko-api"
 }
 ```
 And in require section
 ```json
-"codenix-sv/coingecko-api": "dev-pro-plan"
+"firiks/coingecko-api": "master"
 ```
 ## Basic usage
 
