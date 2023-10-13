@@ -31,7 +31,7 @@ Add in repositories section
 ```
 And in require section
 ```json
-"firiks/coingecko-api": "master"
+"firiks/coingecko-api": "dev-master"
 ```
 ## Basic usage
 
